@@ -48,12 +48,12 @@ const removeLastThreeCharOfString = (string) => {
 }
 
 //https://www.jschallenger.com/javascript-fundamentals/javascript-basics/return-percentage-of-number
-// const = () => {
-
-// }
-
 const percentageOf = (value1, value2) => {
     return ((value2 / value1) * 100).toFixed(2)
 }
 
-console.log(percentageOf(10, 1))
+//https://www.jschallenger.com/javascript-fundamentals/javascript-basics/basic-math-operators-javascript
+const mathOperators = (value1, value2, value3, value4, value5, value6) => {
+    return (((((value1 + value2) - value3) * value4) / value5) ** value6);
+}
+
